@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+li {
+  text-align-last: left;
+  border-bottom: 1px solid #000;
+  background-color: gold;
+}
+.skillz {
+  background-color: #61dafb;
+}

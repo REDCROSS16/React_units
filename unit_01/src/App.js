@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import App2 from './App2';
 
@@ -20,8 +19,10 @@ function App() {
       </header>
 
       <div>
-        <p>My skillz:</p>
-        {array.map(item =>  item + ' ')}
+        <p >My skillz:</p>
+        <ol>
+        {array.map(item => <li key={item}>{item}</li>)}
+        </ol>
       </div>
 
       
