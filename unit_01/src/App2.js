@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
 
     const redColor = 'red';
@@ -8,7 +9,10 @@ export default () => {
         textTransform: 'uppercase'
     }
 
+    const active = 'active';
+    const enable = false;
+
     return  (
-        <div style={styles}>Hello</div>
+        <div className={enable ? active: 'hide'} style={styles}>Hello</div>
     );
 }

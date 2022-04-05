@@ -45,3 +45,10 @@ li {
 .skillz {
   background-color: #61dafb;
 }
+
+.active {
+  background-color: yellow;
+}
+.hide {
+  display: none;
+}
