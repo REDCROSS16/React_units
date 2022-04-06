@@ -3,6 +3,8 @@ export default () => {
 
     const redColor = 'red';
 
+    const head = <h1> This is a HEADER</h1>
+
     const styles = {
         fontWeight: 'bold', 
         color: 'orange',
@@ -10,9 +12,9 @@ export default () => {
     }
 
     const active = 'active';
-    const enable = false;
+    const enable = true;
 
     return  (
-        <div className={enable ? active: 'hide'} style={styles}>Hello</div>
+        <div className={enable ? active: 'hide'} style={styles}>Hello {head}</div>
     );
 }

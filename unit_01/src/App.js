@@ -1,5 +1,7 @@
 import './App.css';
 import App2 from './App2';
+import List from './List';
+import Table from './Table';
 
 function App() {
 
@@ -26,6 +28,9 @@ function App() {
       </div>
 
       
+      <List></List>
+      <Table></Table>
+
     </div>
   );
 }
