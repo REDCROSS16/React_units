@@ -2,6 +2,7 @@ import './App.css';
 import App2 from './App2';
 import List from './List';
 import Table from './Table';
+import Test from './Test';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       
       <List></List>
       <Table></Table>
+      <Test f={123} g = {'ALex'}/>
 
     </div>
   );
