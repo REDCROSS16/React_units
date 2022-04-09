@@ -3,6 +3,7 @@ import App2 from './App2';
 import List from './List';
 import Table from './Table';
 import Test from './Test';
+import Aside from './Aside';
 
 function App() {
 
@@ -28,11 +29,12 @@ function App() {
         </ol>
       </div>
 
-      
       <List></List>
       <Table></Table>
-      <Test f={123} g = {'ALex'}/>
-
+      <Test f={123} g = {'ALex'} name ={name} surname ={surname}/>
+      <div>
+        <Aside />
+      </div>
     </div>
   );
 }
