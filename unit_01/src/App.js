@@ -4,6 +4,7 @@ import List from './List';
 import Table from './Table';
 import Test from './Test';
 import Aside from './Aside';
+import Button from './Button';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
       <div>
         <Aside />
       </div>
+      <Button/>
     </div>
   );
 }

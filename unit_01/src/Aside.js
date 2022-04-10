@@ -33,6 +33,8 @@ function Aside () {
     return (
         <>
         <NavPanel data = {navigation1} />
+        <NavPanel data = {topPages} />
+        <NavPanel data = {lastComments} />
         </>
     )
 }
