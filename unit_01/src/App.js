@@ -5,6 +5,7 @@ import Table from './Table';
 import Test from './Test';
 import Aside from './Aside';
 import Button from './Button';
+import Range from './Range';
 
 function App() {
 
@@ -32,11 +33,15 @@ function App() {
 
       <List></List>
       <Table></Table>
-      <Test f={123} g = {'ALex'} name ={name} surname ={surname}/>
+      <Test f={123} g = {'ALex'} name = {name} surname ={surname}/>
       <div>
         <Aside />
       </div>
+
       <Button/>
+      
+      <Range maxRange={1000}/>
+      <Range maxRange={300}/>
     </div>
   );
 }
