@@ -1,5 +1,6 @@
 import {useState} from "react";
 
+// компонент для вывода инпута range
 function Range (props) {
 
     console.log(props)
