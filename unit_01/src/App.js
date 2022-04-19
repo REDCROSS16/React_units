@@ -6,6 +6,7 @@ import Test from './Test';
 import Aside from './Aside';
 import Button from './Button';
 import Range from './Range';
+import Input from './Input';
 
 function App() {
 
@@ -42,6 +43,10 @@ function App() {
       
       <Range maxRange={1000}/>
       <Range maxRange={300}/>
+
+
+      <h3> Инпут для теста</h3>
+      <Input/>
     </div>
   );
 }
